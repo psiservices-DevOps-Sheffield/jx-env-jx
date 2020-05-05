@@ -13,7 +13,7 @@ dependencies:
   versionURL: ""
 - host: github.com
   owner: PSIServices
-  repo: eas-exodus-admin
-  url: https://github.com/PSIServices/eas-exodus-admin.git
+  repo: eas-urn-service
+  url: https://github.com/PSIServices/eas-urn-service.git
   version: ""
   versionURL: ""
