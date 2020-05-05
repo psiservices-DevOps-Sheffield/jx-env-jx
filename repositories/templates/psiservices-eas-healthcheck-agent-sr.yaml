@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: PSIServices
+    provider: github
+    repository: eas-healthcheck-agent
+  name: psiservices-eas-healthcheck-agent
+spec:
+  description: Imported application for PSIServices/eas-healthcheck-agent
+  httpCloneURL: https://github.com/PSIServices/eas-healthcheck-agent.git
+  org: PSIServices
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: eas-healthcheck-agent
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/PSIServices/eas-healthcheck-agent.git

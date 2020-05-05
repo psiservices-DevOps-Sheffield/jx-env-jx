@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/PSIServices/eas-healthchecks.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: PSIServices
+  repo: eas-healthcheck-agent
+  url: https://github.com/PSIServices/eas-healthcheck-agent.git
+  version: ""
+  versionURL: ""
