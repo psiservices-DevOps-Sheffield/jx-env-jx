@@ -13,7 +13,7 @@ dependencies:
   versionURL: ""
 - host: github.com
   owner: PSIServices
-  repo: eas-mailhog
-  url: https://github.com/PSIServices/eas-mailhog.git
+  repo: eas-payeezy-stub
+  url: https://github.com/PSIServices/eas-payeezy-stub.git
   version: ""
   versionURL: ""
