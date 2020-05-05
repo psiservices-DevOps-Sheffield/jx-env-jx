@@ -5,8 +5,8 @@ bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-config.git
 cluster:
   clusterName: eas-dev-eas-dev-eks
   devEnvApprovers:
-    - psiservices-DevOps-Sheffield
-    - tonywaters@psionline.com
+  - psiservices-DevOps-Sheffield
+  - tonywaters@psionline.com
   environmentGitOwner: psiservices-DevOps-Sheffield
   gitKind: github
   gitName: github
@@ -16,66 +16,66 @@ cluster:
   region: eu-west-2
   registry: 774338652121.dkr.ecr.eu-west-2.amazonaws.com
 environments:
-  - ingress:
-      domain: psiac.net
-      externalDNS: true
-      namespaceSubDomain: -jx.
-      tls:
-        email: tonywaters@psionline.com
-        enabled: true
-        production: true
-    key: dev
-    repository: jx-env-jx
-  - ingress:
-      domain: psiac.net
-      externalDNS: true
-      namespaceSubDomain: .staging.
-      tls:
-        email: ""
-        enabled: false
-        production: false
-    key: staging
-    repository: jx-env-staging
-  - ingress:
-      domain: psiac.net
-      externalDNS: true
-      namespaceSubDomain: .dev.
-      tls:
-        email: ""
-        enabled: false
-        production: false
-    key: develop
-    repository: jx-env-dev
-  - ingress:
-      domain: psiac.net
-      externalDNS: true
-      namespaceSubDomain: .qa.
-      tls:
-        email: ""
-        enabled: false
-        production: false
-    key: qa
-    repository: jx-env-qa
-  - ingress:
-      domain: psiac.net
-      externalDNS: true
-      namespaceSubDomain: .uat.
-      tls:
-        email: ""
-        enabled: false
-        production: false
-    key: uat
-    repository: jx-env-uat
-  - ingress:
-      domain: psiac.net
-      externalDNS: true
-      namespaceSubDomain: .production.
-      tls:
-        email: ""
-        enabled: false
-        production: false
-    key: production
-    repository: jx-env-production
+- ingress:
+    domain: psiac.net
+    externalDNS: true
+    namespaceSubDomain: -jx.
+    tls:
+      email: tonywaters@psionline.com
+      enabled: true
+      production: true
+  key: dev
+  repository: jx-env-jx
+- ingress:
+    domain: psiac.net
+    externalDNS: true
+    namespaceSubDomain: .staging.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: staging
+  repository: jx-env-staging
+- ingress:
+    domain: psiac.net
+    externalDNS: true
+    namespaceSubDomain: .dev.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: develop
+  repository: jx-env-dev
+- ingress:
+    domain: psiac.net
+    externalDNS: true
+    namespaceSubDomain: .qa.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: qa
+  repository: jx-env-qa
+- ingress:
+    domain: psiac.net
+    externalDNS: true
+    namespaceSubDomain: .uat.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: uat
+  repository: jx-env-uat
+- ingress:
+    domain: psiac.net
+    externalDNS: true
+    namespaceSubDomain: .production.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: production
+  repository: jx-env-production
 gitops: true
 ingress:
   domain: psiac.net
@@ -102,9 +102,11 @@ storage:
     enabled: true
     url: s3://jx-eas-repository
 terraform: true
+vault: {}
 velero:
   schedule: ""
   ttl: ""
 versionStream:
+  ref: v1.0.444
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow

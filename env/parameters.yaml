@@ -1,0 +1,10 @@
+adminUser:
+  password: local:eas-dev-eas-dev-eks/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: tonywaters@psionline.com
+  token: local:eas-dev-eas-dev-eks/pipelineUser:token
+  username: psiservices-DevOps-Sheffield
+prow:
+  hmacToken: local:eas-dev-eas-dev-eks/prow:hmacToken
