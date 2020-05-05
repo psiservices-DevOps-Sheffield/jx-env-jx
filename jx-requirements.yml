@@ -110,6 +110,5 @@ velero:
   schedule: ""
   ttl: ""
 versionStream:
-  ref: v1.0.410
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
