@@ -87,7 +87,7 @@ ingress:
     production: true
 kaniko: true
 repository: nexus
-secretStorage: vault
+secretStorage: local
 storage:
   backup:
     enabled: false
@@ -102,10 +102,6 @@ storage:
     enabled: true
     url: s3://jx-eas-repository
 terraform: true
-vault:
-  aws:
-    autoCreate: true
-    iamUserName: twaters
 velero:
   schedule: ""
   ttl: ""
