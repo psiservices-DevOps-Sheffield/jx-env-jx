@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: PSIServices
+    provider: github
+    repository: eas-parent-pom
+  name: psiservices-eas-parent-pom
+spec:
+  description: Imported application for PSIServices/eas-parent-pom
+  httpCloneURL: https://github.com/PSIServices/eas-parent-pom.git
+  org: PSIServices
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: eas-parent-pom
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/PSIServices/eas-parent-pom.git
