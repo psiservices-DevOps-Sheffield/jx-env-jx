@@ -13,7 +13,7 @@ dependencies:
   versionURL: ""
 - host: github.com
   owner: PSIServices
-  repo: eas-urn-service
-  url: https://github.com/PSIServices/eas-urn-service.git
+  repo: eas-candidate-attendance-service
+  url: https://github.com/PSIServices/eas-candidate-attendance-service.git
   version: ""
   versionURL: ""
