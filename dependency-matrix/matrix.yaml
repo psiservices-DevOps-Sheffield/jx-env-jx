@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/PSIServices/eas-healthchecks.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: PSIServices
+  repo: eas-selt-sqlserver
+  url: https://github.com/PSIServices/eas-selt-sqlserver.git
+  version: ""
+  versionURL: ""
