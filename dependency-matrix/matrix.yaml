@@ -13,7 +13,7 @@ dependencies:
   versionURL: ""
 - host: github.com
   owner: PSIServices
-  repo: eas-ovp-service
-  url: https://github.com/PSIServices/eas-ovp-service.git
+  repo: eas-exodus-ws
+  url: https://github.com/PSIServices/eas-exodus-ws.git
   version: ""
   versionURL: ""
