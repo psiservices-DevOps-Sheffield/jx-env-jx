@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: PSIServices
-  repo: eas-parent-pom
-  url: https://github.com/PSIServices/eas-parent-pom.git
+  repo: eas-healthchecks
+  url: https://github.com/PSIServices/eas-healthchecks.git
   version: ""
   versionURL: ""
