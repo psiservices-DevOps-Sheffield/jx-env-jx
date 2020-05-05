@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: PSIServices
+    provider: github
+    repository: eas-exodus-admin
+  name: psiservices-eas-exodus-admin
+spec:
+  description: Imported application for PSIServices/eas-exodus-admin
+  httpCloneURL: https://github.com/PSIServices/eas-exodus-admin.git
+  org: PSIServices
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: eas-exodus-admin
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/PSIServices/eas-exodus-admin.git
