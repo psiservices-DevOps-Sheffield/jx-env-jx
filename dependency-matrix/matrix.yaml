@@ -12,8 +12,8 @@ dependencies:
   version: ""
   versionURL: ""
 - host: github.com
-  owner: PSIServices
-  repo: eas-parent-pom
-  url: https://github.com/PSIServices/eas-parent-pom.git
+  owner: psiservices-DevOps-Sheffield
+  repo: testing
+  url: https://github.com/psiservices-DevOps-Sheffield/testing.git
   version: ""
   versionURL: ""
