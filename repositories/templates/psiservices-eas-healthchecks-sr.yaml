@@ -1,6 +1,8 @@
 apiVersion: jenkins.io/v1
 kind: SourceRepository
 metadata:
+  annotations:
+    jenkins.io/last-build-number-for-master: "1"
   creationTimestamp: null
   labels:
     owner: PSIServices
