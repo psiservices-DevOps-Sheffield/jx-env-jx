@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: PSIServices
+    provider: github
+    repository: eas-candidate-attendance-service
+  name: psiservices-eas-candidate-attendance-service
+spec:
+  description: Imported application for PSIServices/eas-candidate-attendance-service
+  httpCloneURL: https://github.com/PSIServices/eas-candidate-attendance-service.git
+  org: PSIServices
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: eas-candidate-attendance-service
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/PSIServices/eas-candidate-attendance-service.git

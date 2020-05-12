@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: PSIServices
+    provider: github
+    repository: eas-mailhog
+  name: psiservices-eas-mailhog
+spec:
+  description: Imported application for PSIServices/eas-mailhog
+  httpCloneURL: https://github.com/PSIServices/eas-mailhog.git
+  org: PSIServices
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: eas-mailhog
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/PSIServices/eas-mailhog.git

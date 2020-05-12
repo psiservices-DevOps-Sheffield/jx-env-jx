@@ -11,3 +11,9 @@ dependencies:
   url: https://github.com/PSIServices/eas-selt-sqlserver.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: psiservices-DevOps-Sheffield
+  repo: testing
+  url: https://github.com/psiservices-DevOps-Sheffield/testing.git
+  version: ""
+  versionURL: ""

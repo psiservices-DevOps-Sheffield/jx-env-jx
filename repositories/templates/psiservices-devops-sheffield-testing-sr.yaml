@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: psiservices-DevOps-Sheffield
+    provider: github
+    repository: testing
+  name: psiservices-devops-sheffield-testing
+spec:
+  description: Imported application for psiservices-DevOps-Sheffield/testing
+  httpCloneURL: https://github.com/psiservices-DevOps-Sheffield/testing.git
+  org: psiservices-DevOps-Sheffield
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testing
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/psiservices-DevOps-Sheffield/testing.git
