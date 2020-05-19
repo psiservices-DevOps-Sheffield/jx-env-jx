@@ -6,4 +6,4 @@ Dependency | Sources | Version | Mismatched versions
 [PSIServices/eas-selt-sqlserver](https://github.com/PSIServices/eas-selt-sqlserver.git) |  | []() | 
 [psiservices-DevOps-Sheffield/testing](https://github.com/psiservices-DevOps-Sheffield/testing.git) |  | []() | 
 [PSIServices/eas-healthcheck-agent](https://github.com/PSIServices/eas-healthcheck-agent.git) |  | []() | 
-[PSIServices/eas-exodus-ws](https://github.com/PSIServices/eas-exodus-ws.git) |  | []() | 
+[PSIServices/eas-selt-web](https://github.com/PSIServices/eas-selt-web.git) |  | []() | 
