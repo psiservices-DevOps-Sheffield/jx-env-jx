@@ -70,5 +70,5 @@ dex:
 nexus:
   persistence:
     enabled: true
-    AccessMode: ReadWriteOnce
-    storageSize: 32Gi
+    accessMode: ReadWriteOnce
+    size: 32Gi
