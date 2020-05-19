@@ -26,6 +26,10 @@ nexus:
 {{- if hasKey .Requirements "repository"}}
 {{- if or (eq .Requirements.repository "nexus") (eq .Requirements.repository "") }}
   enabled: true
+  persistence:
+    enabled: true
+    accessMode: ReadWriteOnce
+    size: 32Gi
 {{- else }}
   enabled: false
 {{- end }}
