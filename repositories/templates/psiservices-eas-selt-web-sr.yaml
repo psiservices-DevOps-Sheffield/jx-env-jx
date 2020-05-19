@@ -1,8 +1,17 @@
 apiVersion: jenkins.io/v1
 kind: SourceRepository
 metadata:
+  annotations:
+    jenkins.io/last-build-number-for-master: "2"
+    jenkins.io/last-build-number-for-pr-31: "1"
+    jenkins.io/last-build-number-for-pr-32: "1"
+    jenkins.io/last-build-number-for-pr-33: "1"
+    jenkins.io/last-build-number-for-pr-34: "1"
   creationTimestamp: null
   labels:
+    jenkins.io/chart-release: repos
+    jenkins.io/namespace: jx
+    jenkins.io/version: "7"
     owner: PSIServices
     provider: github
     repository: eas-selt-web
