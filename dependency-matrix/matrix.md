@@ -7,3 +7,4 @@ Dependency | Sources | Version | Mismatched versions
 [psiservices-DevOps-Sheffield/testing](https://github.com/psiservices-DevOps-Sheffield/testing.git) |  | []() | 
 [PSIServices/eas-healthcheck-agent](https://github.com/PSIServices/eas-healthcheck-agent.git) |  | []() | 
 [PSIServices/eas-selt-web](https://github.com/PSIServices/eas-selt-web.git) |  | []() | 
+[PSIServices/eas-health-monitor](https://github.com/PSIServices/eas-health-monitor.git) |  | []() | 

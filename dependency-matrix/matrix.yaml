@@ -29,3 +29,9 @@ dependencies:
   url: https://github.com/PSIServices/eas-selt-web.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: PSIServices
+  repo: eas-health-monitor
+  url: https://github.com/PSIServices/eas-health-monitor.git
+  version: ""
+  versionURL: ""
