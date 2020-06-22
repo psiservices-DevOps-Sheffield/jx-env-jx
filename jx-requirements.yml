@@ -39,13 +39,23 @@ environments:
 - ingress:
     domain: psiac.net
     externalDNS: true
-    namespaceSubDomain: .dev.
+    namespaceSubDomain: .develop.
     tls:
       email: ""
       enabled: false
       production: false
   key: develop
-  repository: jx-env-dev
+  repository: jx-env-develop
+- ingress:
+    domain: psiac.net
+    externalDNS: true
+    namespaceSubDomain: .integration.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: integration
+  repository: jx-env-integration
 - ingress:
     domain: psiac.net
     externalDNS: true
