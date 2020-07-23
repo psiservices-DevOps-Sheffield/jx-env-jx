@@ -47,3 +47,9 @@ dependencies:
   url: https://github.com/psiservices-DevOps-Sheffield/eas-selt-web.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: PSIServices
+  repo: eas-selt-financial-document
+  url: https://github.com/PSIServices/eas-selt-financial-document.git
+  version: ""
+  versionURL: ""
