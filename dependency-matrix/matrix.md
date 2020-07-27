@@ -10,4 +10,4 @@ Dependency | Sources | Version | Mismatched versions
 [PSIServices/eas-health-monitor](https://github.com/PSIServices/eas-health-monitor.git) |  | []() | 
 [PSIServices/eas-selt-results-service](https://github.com/PSIServices/eas-selt-results-service.git) |  | []() | 
 [psiservices-DevOps-Sheffield/eas-selt-web](https://github.com/psiservices-DevOps-Sheffield/eas-selt-web.git) |  | []() | 
-[PSIServices/eas-selt-financial-document](https://github.com/PSIServices/eas-selt-financial-document.git) |  | []() | 
+[PSIServices/eas-selt-ovp-service](https://github.com/PSIServices/eas-selt-ovp-service.git) |  | []() | 

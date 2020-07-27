@@ -49,7 +49,7 @@ dependencies:
   versionURL: ""
 - host: github.com
   owner: PSIServices
-  repo: eas-selt-financial-document
-  url: https://github.com/PSIServices/eas-selt-financial-document.git
+  repo: eas-selt-ovp-service
+  url: https://github.com/PSIServices/eas-selt-ovp-service.git
   version: ""
   versionURL: ""
