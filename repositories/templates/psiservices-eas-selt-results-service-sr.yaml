@@ -1,8 +1,17 @@
 apiVersion: jenkins.io/v1
 kind: SourceRepository
 metadata:
+  annotations:
+    jenkins.io/last-build-number-for-develop: "5"
+    jenkins.io/last-build-number-for-master: "1"
+    jenkins.io/last-build-number-for-pr-2: "2"
+    jenkins.io/last-build-number-for-pr-3: "2"
+    jenkins.io/last-build-number-for-pr-4: "5"
   creationTimestamp: null
   labels:
+    jenkins.io/chart-release: repos
+    jenkins.io/namespace: jx
+    jenkins.io/version: "1"
     owner: PSIServices
     provider: github
     repository: eas-selt-results-service

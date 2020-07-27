@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: PSIServices
+    provider: github
+    repository: eas-selt-financial-document
+  name: psiservices-eas-selt-financial-document
+spec:
+  description: Imported application for PSIServices/eas-selt-financial-document
+  httpCloneURL: https://github.com/PSIServices/eas-selt-financial-document.git
+  org: PSIServices
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: eas-selt-financial-document
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/PSIServices/eas-selt-financial-document.git
