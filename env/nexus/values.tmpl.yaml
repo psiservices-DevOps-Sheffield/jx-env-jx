@@ -3,7 +3,7 @@ enabled: true
 persistence:
   enabled: true
   accessMode: ReadWriteOnce
-  size: 32Gi
+  size: 64Gi
 {{- else }}
 enabled: false
 {{- end }}

@@ -71,4 +71,4 @@ nexus:
   persistence:
     enabled: true
     accessMode: ReadWriteOnce
-    size: 32Gi
+    size: 64Gi
