@@ -116,17 +116,17 @@ environments:
       production: false
   key: uat-batch
   repository: jx-env-uat-batch
-- ingress:
-    domain: psiac.net
-    externalDNS: true
-    namespaceSubDomain: .uat-hk.
-    tls:
-      email: ""
-      enabled: false
-      production: false
-  key: uat-hk
-  repository: jx-env-uat-hk
-  remoteCluster: true
+#- ingress:
+#    domain: psiac.net
+#    externalDNS: true
+#    namespaceSubDomain: .uat-hk.
+#    tls:
+#      email: ""
+#      enabled: false
+#      production: false
+#  key: uat-hk
+#  repository: jx-env-uat-hk
+#  remoteCluster: true
 - ingress:
     domain: psiac.net
     externalDNS: true
