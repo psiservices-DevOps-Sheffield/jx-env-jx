@@ -126,6 +126,7 @@ environments:
       production: false
   key: uat-hk
   repository: jx-env-uat-hk
+  remoteCluster: true
 - ingress:
     domain: psiac.net
     externalDNS: true
