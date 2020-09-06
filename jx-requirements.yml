@@ -49,6 +49,16 @@ environments:
 - ingress:
     domain: psiac.net
     externalDNS: true
+    namespaceSubDomain: .develop-batch.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: develop-batch
+  repository: jx-env-develop-batch
+- ingress:
+    domain: psiac.net
+    externalDNS: true
     namespaceSubDomain: .integration.
     tls:
       email: ""
@@ -56,6 +66,16 @@ environments:
       production: false
   key: integration
   repository: jx-env-integration
+- ingress:
+    domain: psiac.net
+    externalDNS: true
+    namespaceSubDomain: .integration-batch.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: integration-batch
+  repository: jx-env-integration-batch
 - ingress:
     domain: psiac.net
     externalDNS: true
@@ -69,6 +89,16 @@ environments:
 - ingress:
     domain: psiac.net
     externalDNS: true
+    namespaceSubDomain: .qa-batch.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: qa-batch
+  repository: jx-env-qa-batch
+- ingress:
+    domain: psiac.net
+    externalDNS: true
     namespaceSubDomain: .uat.
     tls:
       email: ""
@@ -76,6 +106,16 @@ environments:
       production: false
   key: uat
   repository: jx-env-uat
+- ingress:
+    domain: psiac.net
+    externalDNS: true
+    namespaceSubDomain: .uat-batch.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: uat-batch
+  repository: jx-env-uat-batch
 - ingress:
     domain: psiac.net
     externalDNS: true
