@@ -119,6 +119,16 @@ environments:
 - ingress:
     domain: psiac.net
     externalDNS: true
+    namespaceSubDomain: .uat-hk.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: uat-hk
+  repository: jx-env-uat-hk
+- ingress:
+    domain: psiac.net
+    externalDNS: true
     namespaceSubDomain: .production.
     tls:
       email: ""
