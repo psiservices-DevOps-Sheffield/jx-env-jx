@@ -137,16 +137,16 @@ environments:
       production: false
   key: production
   repository: jx-env-production
-- ingress:
-    domain: psiac.net
-    externalDNS: true
-    namespaceSubDomain: .prod.
-    tls:
-      email: ""
-      enabled: false
-      production: false
-  key: prod
-  repository: jx-env-prod
+#- ingress:
+#    domain: psiac.net
+#    externalDNS: true
+#    namespaceSubDomain: .prod.
+#    tls:
+#      email: ""
+#      enabled: false
+#      production: false
+#  key: prod
+#  repository: jx-env-prod
 gitops: true
 ingress:
   domain: psiac.net
