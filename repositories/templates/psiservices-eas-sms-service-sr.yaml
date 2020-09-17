@@ -1,16 +1,19 @@
 apiVersion: jenkins.io/v1
 kind: SourceRepository
 metadata:
+  annotations:
+    jenkins.io/last-build-number-for-develop: "3"
+    jenkins.io/last-build-number-for-master: "1"
   creationTimestamp: null
   labels:
-    owner: psiservices
+    owner: PSIServices
     provider: github
     repository: eas-sms-service
   name: psiservices-eas-sms-service
 spec:
-  description: Imported application for psiservices/eas-sms-service
+  description: Imported application for PSIServices/eas-sms-service
   httpCloneURL: https://github.com/psiservices/eas-sms-service.git
-  org: psiservices
+  org: PSIServices
   provider: https://github.com
   providerKind: github
   providerName: github
@@ -18,4 +21,4 @@ spec:
   scheduler:
     kind: ""
     name: ""
-  url: https://github.com/psiservices/eas-sms-service.git
+  url: https://github.com/PSIServices/eas-sms-service.git
