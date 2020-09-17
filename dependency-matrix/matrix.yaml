@@ -53,3 +53,9 @@ dependencies:
   url: https://github.com/PSIServices/eas-selt-ovp-service.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: psiservices
+  repo: eas-sms-service
+  url: https://github.com/psiservices/eas-sms-service.git
+  version: ""
+  versionURL: ""
