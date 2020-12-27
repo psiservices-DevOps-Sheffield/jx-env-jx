@@ -153,9 +153,9 @@ storage:
     url: s3://jx-eas-repository
 terraform: true
 vault: {}
-velero:
-  schedule: ""
-  ttl: ""
+#velero:
+#  schedule: ""
+#  ttl: ""
 versionStream:
   ref: v1.0.609
   url: https://github.com/jenkins-x/jenkins-x-versions.git
