@@ -157,6 +157,6 @@ vault: {}
 #  schedule: ""
 #  ttl: ""
 versionStream:
-  ref: v1.0.609
+  ref: v1.0.479
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
