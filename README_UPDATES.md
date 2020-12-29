@@ -2,4 +2,4 @@
 replaced
 https://kubernetes-charts.storage.googleapis.com
 with
-https://charts.helm.sh/stable
+https://kubernetes-charts.storage.googleapis.com
